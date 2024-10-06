@@ -59,9 +59,9 @@
   width: 460px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
-  text-align: left; /* Align text to the left */
-  position: relative; /* For positioning the image */
+  align-items: flex-start;
+  text-align: left;
+  position: relative;
 }
 
 .user-card {
@@ -87,7 +87,7 @@
 }
 
 .review-card .followers {
-  margin-left: 200px; /* Push followers count to the right */
+  margin-left: 200px;
 }
 
 .review-card .icon {

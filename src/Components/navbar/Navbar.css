@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 615px;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  height: 615px;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 615px;
+}
+
+.static-text-container {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  color: white;
+  z-index: 2;
+  text-align: left;
+}
+
+@font-face {
+  font-family: "Island Moments";
+  src: url("../../font/IslandMoments-Regular.ttf");
+}
+
+.living-life {
+  font-family: "Island Moments";
+  font-size: 32px;
+  font-weight: 400;
+  color: rgba(191, 86, 198, 1);
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: "Herova";
+  src: url("../../font/Herova.otf");
+}
+
+.love-plants {
+  font-family: "Herova";
+  font-size: 85px;
+  font-weight: 600;
+  color: rgba(69, 69, 69, 1);
+  margin-bottom: 15px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../font/Inter-Regular.otf");
+}
+
+.shop-now-button {
+  font-family: "Inter";
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: rgba(191, 86, 198, 0.8);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.shop-now-button:hover {
+  background-color: rgba(191, 86, 198, 1);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: -15px 0;
+  background-color: rgba(253, 253, 253, 0.6);
+}
+
+.logo img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 40%;
+  position: relative;
+}
+
+.search-container i {
+  color: rgba(191, 86, 198, 0.5);
+  margin-left: 10px;
+  transform: scaleX(-1);
+  font-size: 1.5em;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  width: 80%;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.search-container label {
+  padding: 5px 10px;
+  font-family: "Inter";
+  font-size: 20px;
+  background: rgba(191, 86, 198, 0.5);
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.navbar-icons {
+  margin-right: 40px;
+}
+
+.navbar-icons a {
+  color: #003d2e;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #003d2e;
+  gap: 10px;
+  border-radius: 0 0 25px 25px;
+}
+
+.category-list li {
+  margin: 0 15px;
+}
+
+.category-list li a {
+  font-family: "Inter";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.language-options a {
+  font-size: 18px;
+  color: white;
+}
+
+.language-options i {
+  margin-left: 5px;
+}

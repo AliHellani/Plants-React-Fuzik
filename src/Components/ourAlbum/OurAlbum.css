@@ -1,0 +1,78 @@
+.album-container {
+  text-align: center;
+}
+
+.our-album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 20px;
+}
+
+.album-logo {
+  width: 80px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../font/Inter-Regular.otf");
+}
+
+.ourAlbum-title {
+  font-family: "Inter";
+  font-size: 48px;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #003d2e;
+  background-image: linear-gradient(
+    90deg,
+    #003d2e 33%,
+    #0f614d 63%,
+    #0ee158 85%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  margin: 0px 0px 20px 0px;
+}
+
+.gallery-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.left-arrow {
+  color: #003d2e;
+}
+
+.right-arrow {
+  color: rgba(191, 86, 198, 0.5);
+}
+
+.flower-center {
+  width: 260px;
+  height: 430px;
+  border-radius: 15px;
+}
+
+.medium-flower {
+  width: 170px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.small-flower {
+  width: 135px;
+  height: 250px;
+  border-radius: 15px;
+}

@@ -6,6 +6,8 @@ import Gifts from "./Components/gifts/Gifts";
 import AllCategory from "./Components/allCategory/AllCategory";
 import AboutUs from "./Components/aboutUs/AboutUs";
 import OurAlbum from "./Components/ourAlbum/OurAlbum";
+import Reviews from "./Components/reviews/Reviews";
+import Footer from "./Components/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
       </div>
       <AboutUs />
       <OurAlbum />
+      <div style={{ marginBottom: "30px" }}>
+        <Reviews />
+      </div>
+      <Footer />
     </div>
   );
 }
